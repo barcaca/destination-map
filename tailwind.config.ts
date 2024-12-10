@@ -8,6 +8,10 @@ export default {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      heading: 'var(--font-montserrat)',
+      body: 'var(--font-happy-monkey)',
+    },
     extend: {
       colors: {
         background: 'hsl(var(--background))',

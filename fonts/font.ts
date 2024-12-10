@@ -6,9 +6,8 @@ export const montserrat = Montserrat({
   weight: ['200', '300', '400', '500', '600', '700'],
   variable: '--font-montserrat',
 })
-export const happymonkey = Happy_Monkey({
-  display: 'swap',
+export const happy_monkey = Happy_Monkey({
   subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-happymonkey',
+  weight: '400',
+  variable: '--font-happy-monkey',
 })
