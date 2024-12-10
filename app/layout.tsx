@@ -1,4 +1,6 @@
-import { happymonkey, montserrat } from '@/fonts/font'
+import { Footer } from '@/components/layouts/footer'
+import { Header } from '@/components/layouts/header'
+import { happy_monkey, montserrat } from '@/fonts/font'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 
@@ -15,10 +17,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="pt-BR"
-      className={`${montserrat.variable} ${happymonkey.variable} h-full scroll-smooth`}
+      lang="en"
+      className={`${happy_monkey.variable} ${montserrat.variable} h-full scroll-smooth`}
     >
-      <body className="h-full">{children}</body>
+      <body className="h-full">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
