@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export function Header() {
   return (
-    <header className="fixed top-0 z-50 w-full text-background">
+    <header className="absolute top-0 z-50 w-full text-background">
       <div className="container mx-auto flex h-14 px-4 sm:px-6 lg:px-8">
         <nav
           className="flex w-full items-center justify-between gap-6"
@@ -17,14 +17,9 @@ export function Header() {
             Home
           </Link>
           <p className="font-heading font-semibold">Destination Map</p>
-          <Button
-            variant="secondary"
-            size="sm"
-            className="p-1 font-heading"
-            asChild
-          >
+          <Button variant="secondary" className="p-1 font-heading" asChild>
             <Link href="/novo-destino">
-              <PlusIcon aria-hidden="true" /> Novo Destino
+              <PlusIcon className="size-5" aria-hidden="true" /> Novo Destino
             </Link>
           </Button>
         </nav>
