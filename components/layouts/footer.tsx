@@ -1,27 +1,30 @@
+import { Icons } from '@/components/icons'
 import Link from 'next/link'
-import { Icons } from '../icons'
 
 const socials = [
   {
     name: 'GitHub',
     href: 'https://github.com/barcaca',
-    icon: <Icons.gitHub className="size-6 " />,
+    icon: <Icons.gitHub className="size-6 " aria-hidden="true" />,
   },
   {
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/luan-barcaça/',
-    icon: <Icons.linkedin className="size-6" />,
+    icon: <Icons.linkedin className="size-6" aria-hidden="true" />,
   },
 ]
 
 export function Footer() {
   return (
-    <footer className="relative border-t bg-background">
-      <div className='absolute inset-0 bg-[url("/ibrahim-rifath-unsplash.jpg?height=600&width=1920")] bg-center bg-cover' />
-      <div className="bg-black/15 backdrop-blur-[2.7px]">
-        <div className="container relative z-10 mx-auto">
-          <div className="mt-64 flex items-center justify-between border-border border-t py-8 text-center">
-            <div className="flex space-x-4">
+    <footer className="relative flex min-h-96 w-full items-end border-t bg-background">
+      <div
+        className='absolute inset-0 bg-[url("/ibrahim-rifath-unsplash.jpg?height=390&width=1920")] bg-center bg-cover'
+        aria-hidden="true"
+      />
+      <div className="w-full border-t bg-black/15 backdrop-blur-[3px]">
+        <div className="container relative z-10 mx-auto px-4 py-8 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center justify-between text-center md:flex-row ">
+            <div className="flex space-x-4" aria-label="Social media links">
               {socials.map(social => (
                 <Link
                   key={social.name}
