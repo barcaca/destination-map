@@ -1,0 +1,60 @@
+{
+  "recommendations": [
+    {
+      "id": 1,
+      "title": "Ponta do Sol",
+      "description": "Uma bela cidade costeira com vistas deslumbrantes para o oceano.",
+      "location": {
+        "continent": "Europe",
+        "country": "Portugal",
+        "state": "Lisboa"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1729091330648-2fa27c540de9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "title": "Redberth",
+      "description": "Uma encantadora vila rural com rica história e paisagens deslumbrantes.",
+      "location": {
+        "continent": "Europe",
+        "country": "United Kingdom",
+        "state": "England"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "title": "Marton",
+      "description": "Uma cidade pitoresca cercada por natureza exuberante e aventuras ao ar livre.",
+      "location": {
+        "continent": "Oceania",
+        "country": "New Zealand",
+        "state": "Auckland"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "title": "Nova Praia",
+      "location": {
+        "continent": "Americas",
+        "country": "Brazil",
+        "state": "Rio de Janeiro"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ],
+      "description": "Um paraíso tropical com praias de areia branca e águas cristalinas.",
+      "favorite": false
+    }
+  ]
+}
