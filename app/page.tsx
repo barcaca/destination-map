@@ -1,3 +1,13 @@
+import { HeroCarrousel } from '@/components/hero-carrousel'
+import { Recommendations } from '@/components/recommendations'
+
 export default function Home() {
-  return <div>Ola Mundo</div>
+  return (
+    <>
+      <HeroCarrousel />
+      <div className="bg-background text-foreground">
+        <Recommendations />
+      </div>
+    </>
+  )
 }
