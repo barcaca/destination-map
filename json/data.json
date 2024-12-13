@@ -29,35 +29,8 @@
   },
   {
     "id": 3,
-    "title": "Marton",
-    "description": "Uma cidade pitoresca cercada por natureza exuberante e aventuras ao ar livre.",
-    "location": {
-      "continent": "Oceania",
-      "country": "New Zealand",
-      "state": "Manawatu-Wanganui"
-    },
-    "images": [
-      "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
-    ],
-    "favorite": false
-  },
-  {
-    "id": 4,
-    "title": "Rio de Janeiro",
-    "location": {
-      "continent": "America",
-      "country": "Brazil",
-      "state": "Rio de Janeiro"
-    },
-    "images": [
-      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-    ],
-    "description": "Cidade maravilhosa, famosa por suas praias e Carnaval.",
-    "favorite": false
-  },
-  {
-    "id": 5,
     "title": "Paris",
+    "description": "A cidade luz, famosa por sua arquitetura e culinária.",
     "location": {
       "continent": "Europa",
       "country": "France",
@@ -66,12 +39,12 @@
     "images": [
       "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
     ],
-    "description": "A cidade luz, famosa por sua arquitetura e culinária.",
     "favorite": false
   },
   {
-    "id": 6,
+    "id": 4,
     "title": "Roma",
+    "description": "Cidade eterna, repleta de história e cultura.",
     "location": {
       "continent": "Europa",
       "country": "Italy",
@@ -80,12 +53,40 @@
     "images": [
       "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1996&q=80"
     ],
-    "description": "Cidade eterna, repleta de história e cultura.",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "title": "Veneza",
+    "description": "Cidade dos canais, famosa por sua beleza única e romantismo.",
+    "location": {
+      "continent": "Europa",
+      "country": "Italy",
+      "state": "Veneto"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1519112232436-9923c6ba3d26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 6,
+    "title": "Barcelona",
+    "description": "Cidade vibrante com arquitetura impressionante e praias encantadoras.",
+    "location": {
+      "continent": "Europa",
+      "country": "Spain",
+      "state": "Catalonia"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1485087322071-235c96bb4297?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
     "favorite": false
   },
   {
     "id": 7,
     "title": "Tokyo",
+    "description": "Metrópole vibrante que mistura tradição e tecnologia.",
     "location": {
       "continent": "Asia",
       "country": "Japan",
@@ -94,12 +95,12 @@
     "images": [
       "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1971&q=80"
     ],
-    "description": "Metrópole vibrante que mistura tradição e tecnologia.",
     "favorite": false
   },
   {
     "id": 8,
     "title": "Bangkok",
+    "description": "Cidade dos templos dourados e da deliciosa comida de rua.",
     "location": {
       "continent": "Asia",
       "country": "Thailand",
@@ -108,12 +109,194 @@
     "images": [
       "https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2050&q=80"
     ],
-    "description": "Cidade dos templos dourados e da deliciosa comida de rua.",
     "favorite": false
   },
   {
     "id": 9,
+    "title": "Seoul",
+    "description": "Mistura moderna e histórica, com palácios e arranha-céus.",
+    "location": {
+      "continent": "Asia",
+      "country": "South Korea",
+      "state": "Seoul"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 10,
+    "title": "Singapura",
+    "description": "Cidade-estado moderna com cultura rica e atrações icônicas.",
+    "location": {
+      "continent": "Asia",
+      "country": "Singapore",
+      "state": "Central"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1516422641841-cd9803ab02c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 11,
+    "title": "Kuala Lumpur",
+    "description": "Famosa pelas Torres Petronas e diversidade cultural.",
+    "location": {
+      "continent": "Asia",
+      "country": "Malaysia",
+      "state": "Kuala Lumpur"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1554380848-1b305d82cd8f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 12,
+    "title": "Jakarta",
+    "description": "Capital vibrante da Indonésia com rica vida urbana.",
+    "location": {
+      "continent": "Asia",
+      "country": "Indonesia",
+      "state": "Jakarta"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1691890087912-2163da621a93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 13,
+    "title": "Cape Town",
+    "description": "Cidade com montanhas e praias, famosa pela Table Mountain.",
+    "location": {
+      "continent": "Africa",
+      "country": "South Africa",
+      "state": "Western Cape"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 14,
+    "title": "Marrakech",
+    "description": "Cidade histórica com mercados vibrantes e arquitetura impressionante.",
+    "location": {
+      "continent": "Africa",
+      "country": "Morocco",
+      "state": "Marrakech-Safi"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1618423205267-e95744f57edf?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 15,
+    "title": "Nairobi",
+    "description": "Capital queniana com acesso a safáris e vida selvagem.",
+    "location": {
+      "continent": "Africa",
+      "country": "Kenya",
+      "state": "Nairobi"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1535939786606-e84622c5a229?q=80&w=2056&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 16,
+    "title": "Accra",
+    "description": "Capital de Gana, conhecida por sua cultura vibrante e história.",
+    "location": {
+      "continent": "Africa",
+      "country": "Ghana",
+      "state": "Greater Accra"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1697049643603-b35346a3cb5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 17,
+    "title": "Rio de Janeiro",
+    "description": "Cidade maravilhosa, famosa por suas praias e Carnaval.",
+    "location": {
+      "continent": "America",
+      "country": "Brazil",
+      "state": "Rio de Janeiro"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 18,
+    "title": "Buenos Aires",
+    "description": "A capital da Argentina, famosa pelo tango e arquitetura europeia.",
+    "location": {
+      "continent": "America",
+      "country": "Argentina",
+      "state": "Buenos Aires"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1706170421190-48b12aa10f5e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 19,
+    "title": "Lima",
+    "description": "Capital do Peru, conhecida por sua história e culinária renomada.",
+    "location": {
+      "continent": "America",
+      "country": "Peru",
+      "state": "Lima"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610636409790-64cf9e17b99f?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 20,
+    "title": "Cartagena",
+    "description": "Cidade colombiana com charme colonial e praias paradisíacas.",
+    "location": {
+      "continent": "America",
+      "country": "Colombia",
+      "state": "Bolívar"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1534586171786-479ba91943f5?q=80&w=2017&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 21,
+    "title": "São Paulo",
+    "description": "A maior cidade do Brasil, com cultura diversificada e vida urbana intensa.",
+    "location": {
+      "continent": "America",
+      "country": "Brazil",
+      "state": "São Paulo"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1554168848-228452c09d60?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 22,
     "title": "Nova York",
+    "description": "A cidade que nunca dorme, centro cultural e financeiro.",
     "location": {
       "continent": "America",
       "country": "USA",
@@ -122,7 +305,90 @@
     "images": [
       "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     ],
-    "description": "A cidade que nunca dorme, centro cultural e financeiro.",
+    "favorite": false
+  },
+  {
+    "id": 23,
+    "title": "Sydney",
+    "description": "Famosa pela Ópera de Sydney e praias icônicas como Bondi.",
+    "location": {
+      "continent": "Oceania",
+      "country": "Australia",
+      "state": "New South Wales"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 24,
+    "title": "Melbourne",
+    "description": "Conhecida por sua cena cultural vibrante e cafés únicos.",
+    "location": {
+      "continent": "Oceania",
+      "country": "Australia",
+      "state": "Victoria"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1470294402047-fc1b5f39bd99?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 25,
+    "title": "Auckland",
+    "description": "Cidade portuária e centro econômico da Nova Zelândia.",
+    "location": {
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "state": "Auckland"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 26,
+    "title": "Queenstown",
+    "description": "Destino popular para esportes radicais e paisagens de tirar o fôlego.",
+    "location": {
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "state": "Otago"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512017615494-fdf6146235ff?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 27,
+    "title": "Fiji",
+    "description": "Arquipélago paradisíaco com praias deslumbrantes e águas cristalinas.",
+    "location": {
+      "continent": "Oceania",
+      "country": "Fiji",
+      "state": "Fiji"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1530736822234-c8562cb0a710?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 28,
+    "title": "Tahiti",
+    "description": "Ilha famosa por resorts luxuosos e paisagens tropicais.",
+    "location": {
+      "continent": "Oceania",
+      "country": "French Polynesia",
+      "state": "Tahiti"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1706868957973-8b656c240dbc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
     "favorite": false
   }
 ]
