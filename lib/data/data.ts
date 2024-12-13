@@ -19,3 +19,8 @@ export async function fetchContinents() {
   )
   return groupedContinents
 }
+
+export async function fetchContinentsPlaces(continent: string) {
+  const places = data.filter(place => place.location.continent === continent)
+  return places
+}
