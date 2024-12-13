@@ -1,7 +1,8 @@
 import { PlaceCard } from '@/components/place-card'
-import recommendationsData from '@/data/data.json'
+import { fetchRecommendations } from '@/lib/data/data'
 
-export function Recommendations() {
+export async function Recommendations() {
+  const recommendations = await fetchRecommendations()
   return (
     <section
       aria-labelledby="recommendations-heading"
@@ -19,7 +20,7 @@ export function Recommendations() {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-4 p-2 pb-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {recommendationsData.recommendations.map(place => (
+        {recommendations.map(place => (
           <div
             key={place.id}
             className="relative flex w-full flex-none flex-col"
