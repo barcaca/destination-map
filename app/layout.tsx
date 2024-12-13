@@ -1,3 +1,4 @@
+import { HeroCarrousel } from '@/components/hero-carrousel'
 import { Footer } from '@/components/layouts/footer'
 import { Header } from '@/components/layouts/header'
 import { happy_monkey, montserrat } from '@/fonts/font'
@@ -5,9 +6,21 @@ import '@/styles/globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Destination Map',
+  title: {
+    template: '%s | Destination Map',
+    default: 'Destination Map - Explore os Melhores Destinos',
+  },
   description:
-    'Destination Map is a tool to help you find the best travel routes. Simply enter your destination and we will provide you with a list of the best routes to get there, including the distance, time required, and the cost of each route. We also provide information on the best modes of transportation, such as flying, driving, or taking the train or bus.',
+    'Descubra e planeje suas próximas aventuras com o Destination Map. Explore destinos incríveis, compartilhe experiências e crie memórias inesquecíveis.',
+  keywords: [
+    'viagem',
+    'destinos',
+    'turismo',
+    'aventura',
+    'planejamento de viagem',
+  ],
+  authors: [{ name: 'Destination Map Team' }],
+  creator: 'Destination Map',
 }
 
 export default function RootLayout({
@@ -20,8 +33,9 @@ export default function RootLayout({
       lang="en"
       className={`${happy_monkey.variable} ${montserrat.variable} h-full scroll-smooth`}
     >
-      <body className="h-full">
+      <body className="flex h-full w-full flex-col">
         <Header />
+        <HeroCarrousel />
         {children}
         <Footer />
       </body>
