@@ -61,7 +61,7 @@ export async function SectionContinents() {
             </h2>
             {lengthPlaces > 2 && (
               <Button asChild>
-                <Link href={`/continente/${continent}`}>
+                <Link href={`/continente/${continent.toLowerCase()}`}>
                   {' '}
                   Ver todos lugares em {continent}{' '}
                 </Link>
