@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Ponta do Sol",
+    "description": "Uma bela cidade costeira com vistas deslumbrantes para o oceano.",
+    "location": {
+      "continent": "Europa",
+      "country": "Portugal",
+      "state": "Madeira"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1729091330648-2fa27c540de9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "title": "Redberth",
+    "description": "Uma encantadora vila rural com rica história e paisagens deslumbrantes.",
+    "location": {
+      "continent": "Europa",
+      "country": "United Kingdom",
+      "state": "Wales"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "title": "Marton",
+    "description": "Uma cidade pitoresca cercada por natureza exuberante e aventuras ao ar livre.",
+    "location": {
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "state": "Manawatu-Wanganui"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+    ],
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "title": "Rio de Janeiro",
+    "location": {
+      "continent": "America",
+      "country": "Brazil",
+      "state": "Rio de Janeiro"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ],
+    "description": "Cidade maravilhosa, famosa por suas praias e Carnaval.",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "title": "Paris",
+    "location": {
+      "continent": "Europa",
+      "country": "France",
+      "state": "Île-de-France"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+    ],
+    "description": "A cidade luz, famosa por sua arquitetura e culinária.",
+    "favorite": false
+  },
+  {
+    "id": 6,
+    "title": "Roma",
+    "location": {
+      "continent": "Europa",
+      "country": "Italy",
+      "state": "Lazio"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1996&q=80"
+    ],
+    "description": "Cidade eterna, repleta de história e cultura.",
+    "favorite": false
+  },
+  {
+    "id": 7,
+    "title": "Tokyo",
+    "location": {
+      "continent": "Asia",
+      "country": "Japan",
+      "state": "Tokyo"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1971&q=80"
+    ],
+    "description": "Metrópole vibrante que mistura tradição e tecnologia.",
+    "favorite": false
+  },
+  {
+    "id": 8,
+    "title": "Bangkok",
+    "location": {
+      "continent": "Asia",
+      "country": "Thailand",
+      "state": "Bangkok"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2050&q=80"
+    ],
+    "description": "Cidade dos templos dourados e da deliciosa comida de rua.",
+    "favorite": false
+  },
+  {
+    "id": 9,
+    "title": "Nova York",
+    "location": {
+      "continent": "America",
+      "country": "USA",
+      "state": "New York"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ],
+    "description": "A cidade que nunca dorme, centro cultural e financeiro.",
+    "favorite": false
+  }
+]
