@@ -35,7 +35,7 @@ const slides = [
 export function HeroCarrousel() {
   return (
     <div className="relative w-full" aria-label="Destaques do Destination Map">
-      <Carousel opts={{ loop: true }} autoPlay autoPlayInterval={5000}>
+      <Carousel opts={{ loop: true }} autoPlay autoPlayInterval={8000}>
         <CarouselContent>
           {slides.map(slide => (
             <CarouselItem key={slide.id}>
