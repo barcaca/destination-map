@@ -34,7 +34,7 @@ export function PlaceCard({ place }: PlaceCardProps) {
       </Button>
       <div className="relative aspect-[4/3] w-full rounded-md">
         <Image
-          alt={`${place.title}, ${place.location.country}`}
+          alt={`${place.title}, ${place.location.country.name}`}
           src={place.images[0]}
           fill
           className="h-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -45,7 +45,7 @@ export function PlaceCard({ place }: PlaceCardProps) {
           {place.title}
         </h3>
         <p className="text-background/80 text-sm">
-          {place.location.country} , {place.location.state}
+          {place.location.country.name} , {place.location.state.name}
         </p>
         <p className="mt-2 line-clamp-2 text-background/50 text-sm">
           {place.description}
