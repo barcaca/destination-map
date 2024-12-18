@@ -1,7 +1,7 @@
 import { Icons } from '@/components/icons'
 import { PlaceCard } from '@/components/place-card'
 import { BentoCard, BentoGrid } from '@/components/ui/bento-grid'
-import { fetchContinents } from '@/lib/data/data'
+import type { Place } from '@/types/place'
 import Link from 'next/link'
 import type { JSX } from 'react'
 import { Button } from './ui/button'
@@ -39,9 +39,13 @@ const sectionContinent: { [key: string]: Continent } = {
   },
 }
 
-export async function SectionContinents() {
-  const groupedContinents = await fetchContinents()
+interface SectionContinentsProps {
+  groupedContinents: { [key: string]: Place[] }
+}
 
+export function SectionContinents({
+  groupedContinents,
+}: SectionContinentsProps) {
   return Object.keys(groupedContinents || {}).map(continent => {
     const lengthPlaces = groupedContinents[continent].length
     return (
