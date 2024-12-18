@@ -31,7 +31,7 @@ export async function fetchContinents(placeData: Place[]) {
 }
 
 export async function fetchContinentsPlaces(continent: string) {
-  const url = `${BASE_URL.REST}${ENDPOINTS.PLACES}?user_id=SYSTEM&location.continent=${continent}`
+  const url = `${BASE_URL.REST}${ENDPOINTS.PLACES}?user_id=SYSTEM&location.continent.name=${continent}`
   const response = await fetch(url, { cache: 'force-cache' })
   const places: Place[] = await response.json()
 
