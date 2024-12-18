@@ -20,9 +20,9 @@ const defaultValues = {
   title: '',
   description: '',
   location: {
-    region: { id: 0, name: '' },
-    country: { id: 0, name: '' },
-    state: { id: 0, name: '' },
+    region: { id: undefined, name: '' },
+    country: { id: undefined, name: '' },
+    state: { id: undefined, name: '' },
   },
   images: [{ url: '' }],
 }
@@ -59,13 +59,13 @@ export function NewDestinationForm({ regions }: NewDestinationFormProps) {
   }, [fields, append])
 
   useEffect(() => {
-    if (watchRegion) {
+    if (watchRegion.id) {
       getCountries(watchRegion.id).then(setCountries)
     }
   }, [watchRegion])
 
   useEffect(() => {
-    if (watchCountry) {
+    if (watchCountry.id) {
       getStates(watchCountry.id).then(setStates)
     }
   }, [watchCountry])
