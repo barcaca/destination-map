@@ -1,6 +1,6 @@
 import { PlaceCard } from '@/components/place-card'
 import { BentoCard, BentoGrid } from '@/components/ui/bento-grid'
-import { fetchContinentsPlaces } from '@/lib/data/data'
+import { fetchContinentsPlaces } from '@/lib/data/places-api'
 
 function capitalizeFirstLetter(string: string) {
   return string.charAt(0).toUpperCase() + string.slice(1)
@@ -8,7 +8,7 @@ function capitalizeFirstLetter(string: string) {
 
 export default async function ContinentPage({
   params,
-}: { params: { continenteName: string } }) {
+}: { params: Promise<{ continenteName: string }> }) {
   const { continenteName } = await params
   const continente = capitalizeFirstLetter(continenteName)
   const places = await fetchContinentsPlaces(continente)
