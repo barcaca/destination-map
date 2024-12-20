@@ -1,14 +1,15 @@
 import { Button } from '@/components/ui/button'
 import type { Place } from '@/types/place'
-import { HeartIcon } from 'lucide-react'
+import { HeartIcon, PenIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 interface PlaceCardProps {
   place: Place
+  isUser?: boolean
 }
 
-export function PlaceCard({ place }: PlaceCardProps) {
+export function PlaceCard({ place, isUser }: PlaceCardProps) {
   return (
     <div className="group relative flex w-full overflow-hidden rounded-xl shadow-shape">
       <div
@@ -32,10 +33,20 @@ export function PlaceCard({ place }: PlaceCardProps) {
           aria-hidden="true"
         />
       </Button>
+      {isUser && (
+        <Button
+          variant="ghost"
+          size="icon"
+          aria-label="Editar"
+          className={`group/favorite absolute top-2 right-2 z-40 h-8 w-8 rounded-full ${place.favorite ? 'bg-muted text-muted-foreground' : 'bg-muted/40 text-muted-foreground/50'} hover:bg-muted/90`}
+        >
+          <PenIcon className="fill-current text-current" aria-hidden="true" />
+        </Button>
+      )}
       <div className="relative aspect-[4/3] w-full rounded-md">
         <Image
           alt={`${place.title}, ${place.location.country.name}`}
-          src={place.images[0]}
+          src={place.images[0].url}
           fill
           className="h-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
