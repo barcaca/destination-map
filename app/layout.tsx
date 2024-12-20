@@ -1,6 +1,7 @@
 import { HeroCarrousel } from '@/components/hero-carrousel'
 import { Footer } from '@/components/layouts/footer'
 import { Header } from '@/components/layouts/header'
+import { Toaster } from '@/components/ui/sonner'
 import { happy_monkey, montserrat } from '@/fonts/font'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
@@ -38,6 +39,7 @@ export default function RootLayout({
         <HeroCarrousel />
         {children}
         <Footer />
+        <Toaster richColors position="top-center" />
       </body>
     </html>
   )
