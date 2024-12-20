@@ -30,7 +30,9 @@ export type Place = {
   title: string
   description: string
   location: Location
-  images: string[]
+  images: {
+    url: string
+  }[]
   user_id: string
   favorite: boolean
 }
