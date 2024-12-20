@@ -37,6 +37,9 @@ export async function newDestinationAction(
     }
 
     const response = await fetch(url, options)
+
+    if (!response.ok) throw new Error('Falha ao criar o destino')
+
     revalidatePath('/')
 
     return { message: 'Destino criado com sucesso', status: 200 }
