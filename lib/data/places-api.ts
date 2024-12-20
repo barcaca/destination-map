@@ -12,6 +12,15 @@ export async function fetchPlaces(): Promise<Place[]> {
   return places
 }
 
+export async function fetchUserPlaces(userId: string): Promise<Place[]> {
+  const url = `${BASE_URL.REST}${ENDPOINTS.PLACES}?user_id=${userId}`
+
+  const response = await fetch(url, { cache: 'force-cache' })
+  const places: Place[] = await response.json()
+
+  return places
+}
+
 export async function fetchRecommendations(placeData: Place[]) {
   const numbers = generateUniqueRandomNumbers(4, placeData.length)
   const recommendations = numbers.map(index => placeData[index])
@@ -32,7 +41,7 @@ export async function fetchContinents(placeData: Place[]) {
 
 export async function fetchContinentsPlaces(continent: string) {
   const url = `${BASE_URL.REST}${ENDPOINTS.PLACES}?user_id=SYSTEM&location.continent.name=${continent}`
-  const response = await fetch(url, { cache: 'force-cache' })
+  const response = await fetch(url)
   const places: Place[] = await response.json()
 
   return places
@@ -40,7 +49,7 @@ export async function fetchContinentsPlaces(continent: string) {
 
 export async function getRegions(): Promise<Region[]> {
   const res = await fetch('http://localhost:3000/api/regions')
-  if (!res.ok) throw new Error('Failed to fetch regions')
+  if (!res.ok) throw new Error('Falha a buscar regiões')
   return res.json()
 }
 
@@ -50,7 +59,7 @@ export async function getCountries(
   const res = await fetch(
     `http://localhost:3000/api/countries?region_id=${regionId}`
   )
-  if (!res.ok) throw new Error('Failed to fetch countries')
+  if (!res.ok) throw new Error('Falha a buscar países')
   return res.json()
 }
 
@@ -58,6 +67,6 @@ export async function getStates(countryId: string | number): Promise<State[]> {
   const res = await fetch(
     `http://localhost:3000/api/states?country_id=${countryId}`
   )
-  if (!res.ok) throw new Error('Failed to fetch states')
+  if (!res.ok) throw new Error('Falha a buscar estados')
   return res.json()
 }
